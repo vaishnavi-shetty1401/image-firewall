@@ -87,7 +87,7 @@ User Upload
 
 - Uses `detect_moderation_labels`
 - **MinConfidence:** 50%
-- If any moderation label detected → QUARANTINE
+- If any moderation label detected → **QUARANTINE**
 
 ---
 
@@ -102,9 +102,30 @@ User Upload
 
 ---
 
+## 📸 Screenshots
+
+### S3 Buckets
+![S3 Buckets](screenshots/Screenshot- s3 bucket.png)
+
+### Lambda Trigger
+![Lambda Trigger](screenshots/Screenshot- lambda-trigger - Copy.png)
+
+### DynamoDB Audit Logs
+![DynamoDB Logs](screenshots/Screenshot-dynamodb-table.png)
+
+### SNS Email Alert
+![SNS Email](screenshots/Screenshot-sns-email.png)
+
+---
+
 ## 📂 Repository Structure
 
 ```text
 image-firewall/
 ├── lambda_function.py
+├── screenshots/
+│   ├── Screenshot- s3 bucket.png
+│   ├── Screenshot- lambda-trigger - Copy.png
+│   ├── Screenshot-dynamodb-table.png
+│   └── Screenshot-sns-email.png
 └── README.md
